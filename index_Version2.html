@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Поймай яблоки</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Поймай яблоки</h1>
+    <div class="hud">
+      <div id="score">Очки: 0</div>
+      <div id="lives">Жизни: 3</div>
+    </div>
+    <canvas id="game" width="600" height="400"></canvas>
+    <div class="controls">
+      <button id="startBtn">Старт</button>
+      <button id="restartBtn" style="display:none;">Перезапустить</button>
+    </div>
+    <p class="hint">Управление: стрелки ← → или двигайте мышь (или палец на тачскрине).</p>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>
